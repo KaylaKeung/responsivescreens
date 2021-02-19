@@ -129,6 +129,7 @@ img {
   }
 
   @media (min-width: 62em) {
+    .col.l9{
     width: 74.99999%;
   }
   .col.l10 {
