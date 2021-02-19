@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+  <html lang="en"></html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Screens</title>
+
+    <!-- Link to your favicon -->
+    <link rel="shortcut icon" type="image/png" href="./favicon.png" />
+
+    <!-- Link to your stylesheet -->
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+
+  <body>
+    <!-- Sidebar with image -->
+    <nav class="sidebar hide-medium hide-small" style="width: 40%">
+      <div class="bgimg"></div>
+    </nav>
+
+    <!-- Hidden Sidebar (reveals when clicked on menu icon)-->
+   
+    <!-- Page Content -->
+    <div class="main padding-large" style="margin-left: 40%">
+      <!-- Header -->
+      <header
+        class="container center"
+        style="padding: 1em 0.125em"
+        id="home"
+      >
+        <h1 class="jumbo"><b>THE ALBUMS</b></h1>
+        <p class="kayla">Kayla's Album Collection</p>
+        <img
+          src="assets/white.jpg"
+          class="image hide-large hide-small round"
+          style="display: block; width: 60%; margin: auto"
+        />
+        <img
+          src="assets/white.jpg"
+          class="image hide-large hide-medium round"
+          width="1000"
+          height="1333"
+        />
+     
+      </header>
+
+      
+      <div class="padding-32 content" id="portfolio">
+        <h1 class="text-grey">Overview</h2>
+        <hr class="opacity" />
+
+        <!-- Grid for photos -->
+        <div class="row-padding" style="margin: 0 -1em">
+          <div class="half">
+            <img src="/assets/joji.jpg" style="width: 100%" />
+            <img src="/assets/honne.png" style="width: 100%" />
+            <img src="/assets/balance.jpg" style="width: 100%" />
+            <img src="/assets/gorillaz.jpg" style="width: 100%" />
+          </div>
+
+          <div class="half">
+            <img src="/assets/giriboy.jpg" style="width: 100%" />
+            <img src="/assets/blue.jpg" style="width: 100%" />
+            <img src="/assets/coogie.jpg" style="width: 100%" />
+            <img src="/assets/red.jpg" style="width: 100%" />
+          
+          </div>
+          <!-- End photo grid -->
+        </div>
+       
+      </div>
+
+    
+
+      <div id="about">
+      <h2><br><br>About</h2>
+        <hr class="opacity" />
+        <p class="introtext">
+         <br>  <br> <br> <br>These are the covers I collected from some of my favorite artists, ENJOY!
+        </p>
+       
+        <br> <br> <br> <br> <br> <br><br><br><br><br><br>
+        
+        <h3 class="text-grey">Favorite Genres</h3>
+        <div class="row-padding">
+          <div class="half margin-bottom">
+            <ul class="ul center card hover-shadow">
+              <li class="text">Alternative</li>
+              </li>
+            </ul>
+          </div>
+
+          <div class="half">
+            <ul class="ul center card hover-shadow">
+              <li class="text">Soul</li>
+              
+              </li>
+            </ul>
+          </div>
+         
+        </div>
+
+       
+      </div>
+
+      <br><br><br><br><br><br><br>
+      <div
+        id="contact"
+  
+      >
+        <h3 class="text-grey"><br>Contact Me</h3>
+        <hr class="opacity" />
+
+        <div class="section">
+          <p class="text">
+            <i class=></i>
+            New York, US
+          </p >
+          <p class="text">
+            <i class=></i> Phone:
+            +00 151515
+          </p class="text">
+          <p class="text">
+            <i class=> </i>
+            Email: keunt963@newschool.edu
+          </p>
+        </div>
+
+        <!-- Image of location/map -->
+        <img
+          src="./assets/map.jpg"
+          class="image greyscale"
+          style="width: 100%; margin: 1.7em 0"
+        />
+
+        <h3 class="text-grey"><br>Message</h3>
+        <form action="/action_page.php" target="_blank">
+          <p>
+            <input
+              class="input text border"
+              type="text"
+              placeholder="Name"
+              required
+              name="Name"
+            />
+          </p>
+          <p>
+            <input
+              class="input text border"
+              type="text"
+              placeholder="Email"
+              required
+              name="Email"
+            />
+          </p>
+          <p>
+            <input
+              class="input text border"
+              type="text"
+              placeholder="Subject"
+              required
+              name="Subject"
+            />
+          </p>
+          <p>
+            <input
+              class="input text border"
+              type="text"
+              placeholder="Message"
+              required
+              name="Message"
+            />
+          </p>
+          <br>
+          <p class="center">
+            <button
+              class="button text padding-large"
+              type="submit"
+            >
+              <i class="fa fa-paper-plane"></i> SEND MESSAGE
+            </button>
+          </p>
+        </form>
+        <!-- End Contact Section -->
+      </div>
+
+     
+    
+      </footer>
+
+    </div>
+
+  </body>
+</html>
