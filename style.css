@@ -73,7 +73,8 @@ img {
   white-space: nowrap;
 }
 .btn:hover {
-  box-shadow: 0.5em 1em 0 rgba(0, 0, 0, 0.2), 0 0.375em 1.25em 0 rgba(0, 0, 0, 0.19);
+  box-shadow: 0.5em 1em 0 rgba(0, 0, 0, 0.2),
+    0 0.375em 1.25em 0 rgba(0, 0, 0, 0.19);
 }
 .button {
   -webkit-touch-callout: none;
@@ -156,7 +157,6 @@ img {
   max-width: 71.25em;
 }
 
-
 .hide {
   display: none;
 }
@@ -202,11 +202,13 @@ img {
 
 .card,
 .card-2 {
-  box-shadow: 0 1.125em 0.3125em 0 rgba(0, 0, 0, 0.16), 0 0.125em 0.625em rgba(0, 0, 0, 0.12);
+  box-shadow: 0 1.125em 0.3125em 0 rgba(0, 0, 0, 0.16),
+    0 0.125em 0.625em rgba(0, 0, 0, 0.12);
 }
 .card-4,
 .hover-shadow:hover {
-  box-shadow: 0 0.25em 0.625em 0 rgba(0, 0, 0, 0.2), 0 0.25em 1.25em 0 rgba(0, 0, 0, 0.19);
+  box-shadow: 0 0.25em 0.625em 0 rgba(0, 0, 0, 0.2),
+    0 0.25em 1.25em 0 rgba(0, 0, 0, 0.19);
 }
 
 .opacity,
@@ -217,15 +219,17 @@ img {
 .jumbo {
   font-family: "Hyper Scrypt_Stencil";
   font-size: 5em;
-  text-align:center;}
-  
-  .kayla{
-    font-family:"Mayenne Sans_Regular";
-    font-size:2em;text-align: center;align-items: center;
-  }
+  text-align: center;
+}
+
+.kayla {
+  font-family: "Mayenne Sans_Regular";
+  font-size: 2em;
+  text-align: center;
+  align-items: center;
+}
 
 .section,
-
 .padding-16 {
   padding-top: 1em;
   padding-bottom: 1em;
@@ -252,31 +256,32 @@ img {
 .hover-none:hover {
   box-shadow: none !important;
 }
-.text-grey{
+.text-grey {
   font-family: "Hyper Scrypt_Stencil";
-  font-size:3em;
+  font-size: 3em;
   padding-top: 2em;
 }
 
-h2{font-size:0.5em;
-  padding-top: 5%;opacity: 0;}
+h2 {
+  font-size: 0.5em;
+  padding-top: 5%;
+  opacity: 0;
+}
 
-  .text{
-font-family:"Mayenne Sans_Regular";
-font-size:1.5em;
-line-height: 1em;
-padding:1em;
-  }
-  .introtext{
-    font-family:"Mayenne Sans_Regular";
-    font-size:5em;
-    line-height: 1.7em;
-    color:green;
-    -webkit-text-stroke:0.0125em seashell;
-    text-align: center;
-      }
-    .main:hover {
-       background-color:rgb(243, 255, 239);
-       
-      
-      }
+.text {
+  font-family: "Mayenne Sans_Regular";
+  font-size: 1.5em;
+  line-height: 1em;
+  padding: 1em;
+}
+.introtext {
+  font-family: "Mayenne Sans_Regular";
+  font-size: 5em;
+  line-height: 1.7em;
+  color: green;
+  -webkit-text-stroke: 0.0125em seashell;
+  text-align: center;
+}
+.main:hover {
+  background-color: rgb(243, 255, 239);
+}
